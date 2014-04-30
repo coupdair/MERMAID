@@ -57,7 +57,7 @@ convert check.pdf check.png
 #create day report (warning: may be too short now due to fast FTP, see above)
 ./check_Licor.Rsh $fo
 ##show
-cp -p $ft.pdf day.pdf
+cp -p $fo.pdf day.pdf
 evince day.pdf &
 convert day.pdf day.png
 
