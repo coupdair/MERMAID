@@ -45,6 +45,9 @@ head -n 2 $fo
 echo ...
 tail -n 2 $fo
 
+#check screen capture
+./status_Licor_computer.sh
+
 #create check report
 ft=$fo'.check'
 tail -n 20 $fo > $ft
