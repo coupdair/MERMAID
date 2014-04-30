@@ -11,6 +11,9 @@ file_name=args[1]
 du.max=15000
 du.min=11000
 
+#status time limit, e.g. 5*60 for 5 min.
+time_limit=8*60
+
 #table
 t=read.table(file_name)
 date=strptime(t$V1, "%Y%m%d_%H%M%S.dat")
@@ -19,7 +22,7 @@ du=t$V2
 summary(du)
 
 time=Sys.time()
-time_lim=time-5*60 #setup margin time for status
+time_lim=time-time_limit #setup margin time for status
 time.square=c(time_lim,time_lim,time,time,time_lim)
 du.square=c(du.min,du.max,du.max,du.min,du.min)
 date=c(date,time.square)
