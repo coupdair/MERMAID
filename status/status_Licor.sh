@@ -23,7 +23,7 @@ date
 
 #remove part FTP folder (i.e. fast FTP)
 ft=tmpLicorRmPart.txt
-ls $day/* | tail -n 20 > $ft
+ls $day/*.dat | tail -n 20 > $ft
 for f in `cat $ft`; do rm $f; done
 rm $ft
 
