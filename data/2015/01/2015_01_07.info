@@ -1,0 +1,20 @@
+2015/01/07 12:19:12
+ /dev/ttyACM0 UNO open
+2015/01/07 12:19:14 /dev/ttyACM0 UNO error:|1,CLEARDATA|
+2015/01/07 12:19:15
+ /dev/ttyUSB0 DYLOS open
+2015/01/07 12:22:00
+ /dev/ttyACM0 UNO open
+2015/01/07 12:22:01 /dev/ttyACM0 UNO error:|CLEARDATA|
+2015/01/07 12:22:02
+ /dev/ttyUSB0 DYLOS open
+2015/01/07 12:33:32
+ /dev/ttyACM0 UNO open
+2015/01/07 12:33:33 /dev/ttyACM0 UNO error:|CLEARDATA|
+2015/01/07 12:33:34
+ /dev/ttyUSB1 DYLOS open
+2015/01/07 14:16:47
+ /dev/ttyACM0 UNO open
+2015/01/07 14:16:49 /dev/ttyACM0 UNO error:|8CLEARDATA|
+2015/01/07 14:16:49
+ /dev/ttyUSB1 DYLOS open
